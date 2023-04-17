@@ -89,6 +89,18 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
     }
 
+    // Extra Credit
+    @Override
+    public String toString() {
+        return toString(root);
+    }
+
+    private String toString(Node<T> node) {
+        if (node == null) {
+            return "N";
+        }
+        return node.data + ", " + toString(node.left) + ", " + toString(node.right);
+    }
 
 
 
