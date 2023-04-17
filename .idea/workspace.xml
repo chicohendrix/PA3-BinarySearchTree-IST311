@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a190a0-1fa1-4f0e-b7e1-9ab6b16892de" name="Changes" comment="Added Extra Credit Code - toString">
+    <list default="true" id="84a190a0-1fa1-4f0e-b7e1-9ab6b16892de" name="Changes" comment="Created BST Test Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA3-BST-Ritvik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA3-BST-Ritvik.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,11 +35,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +120,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681697755380</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added reblance method for BST">
+      <created>1681700067839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681700067839</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added reblance method for BST">
+      <created>1681700119323</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681700119323</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added partition method for BST">
+      <created>1681700155538</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681700155538</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created BST Test Class">
+      <created>1681700369321</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681700369321</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +160,9 @@
     <MESSAGE value="Added Delete" />
     <MESSAGE value="Added Compare" />
     <MESSAGE value="Added Extra Credit Code - toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Extra Credit Code - toString" />
+    <MESSAGE value="Added reblance method for BST" />
+    <MESSAGE value="Added partition method for BST" />
+    <MESSAGE value="Created BST Test Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created BST Test Class" />
   </component>
 </project>
