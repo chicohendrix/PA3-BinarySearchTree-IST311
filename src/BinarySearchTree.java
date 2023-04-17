@@ -103,5 +103,26 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
 
+    public BinarySearchTree<T> rebalance() {
+        List<T> inOrderList = inOrder();
+        return buildBalancedTree(inOrderList, 0, inOrderList.size() - 1);
+    }
+
+    private BinarySearchTree<T> buildBalancedTree(List<T> sortedList, int start, int end) {
+        if (start > end) {
+            return null;
+        }
+
+        int mid = (start + end) / 2;
+        BinarySearchTree<T> tree = new BinarySearchTree<>();
+        tree.insert(sortedList.get(mid));
+
+        tree.root.left = buildBalancedTree(sortedList, start, mid - 1).root;
+        tree.root.right = buildBalancedTree(sortedList, mid + 1, end).root;
+
+        return tree;
+    }
+
+
 
 
