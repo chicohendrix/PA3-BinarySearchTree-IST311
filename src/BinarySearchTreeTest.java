@@ -1,3 +1,7 @@
+//PA03 Binary Search Tree
+//IST 311
+//By Ritvik Kumar Kothapalli
+
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.List;
