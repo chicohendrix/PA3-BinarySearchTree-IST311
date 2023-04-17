@@ -137,6 +137,24 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
     }
 
+    public List<T> partition(T data) {
+        List<T> result = new ArrayList<>();
+        partition(root, data, result);
+        return result;
+    }
+
+    private void partition(Node<T> node, T data, List<T> result) {
+        if (node != null) {
+            partition(node.left, data, result);
+            if (node.data.compareTo(data) >= 0) {
+                result.add(node.data);
+            }
+            partition(node.right, data, result);
+        }
+    }
+}
+
+
 
 
 
