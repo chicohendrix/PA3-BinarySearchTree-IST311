@@ -1,3 +1,7 @@
+//PA03 Binary Search Tree
+//IST 311
+//By Ritvik Kumar Kothapalli
+
 import java.util.List;
 
 public class Album implements Comparable<Album> {
@@ -13,6 +17,7 @@ public class Album implements Comparable<Album> {
         this.numSongs = numSongs;
     }
 
+    //Added Overrides
     @Override
     public int compareTo(Album o) {
         return Integer.compare(this.numSongs, o.numSongs);
@@ -23,7 +28,7 @@ public class Album implements Comparable<Album> {
         return "ID: " + id + " NUM_SONGS: " + numSongs + " -- " + artists.toString();
     }
 
-    // Getters and setters
+    // Adding Getters and setters
     public int getId() {
         return id;
     }
@@ -56,3 +61,5 @@ public class Album implements Comparable<Album> {
         this.numSongs = numSongs;
     }
 }
+
+//END
