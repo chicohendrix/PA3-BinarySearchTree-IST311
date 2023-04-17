@@ -14,4 +14,28 @@ public class BinarySearchTree<T extends Comparable<T>> {
             left = right = null;
         }
     }
-}
+    public void insert(T data) {
+        root = insert(root, data);
+    }
+
+    private Node<T> insert(Node<T> node, T data) {
+        if (node == null) {
+            return new Node<>(data);
+        }
+
+        int cmp = data.compareTo(node.data);
+        if (cmp < 0) {
+            node.left = insert(node.left, data);
+        } else {
+            node.right = insert(node.right, data);
+        }
+
+        return node;
+    }
+
+    public void delete(T data) {
+        root = delete(root, data);
+    }
+
+
+
