@@ -42,6 +42,54 @@ public class BinarySearchTree<T extends Comparable<T>> {
             throw new IllegalArgumentException("Data not found in the tree.");
         }
 
+        int cmp = data.compareTo(node.data);
+        if (cmp < 0) {
+            node.left = delete(node.left, data);
+        } else if (cmp > 0) {
+            node.right = delete(node.right, data);
+        } else {
+            if (node.left == null) {
+                return node.right;
+            } else if (node.right == null) {
+                return node.left;
+            }
+
+            node.data = minValue(node.right);
+            node.right = delete(node.right, node.data);
+        }
+
+        return node;
+    }
+
+    private T minValue(Node<T> node) {
+        T minValue = node.data;
+        while (node.left != null) {
+            minValue = node.left.data;
+            node = node.left;
+        }
+        return minValue;
+    }
+
+    public boolean contains(T data) {
+        return contains(root, data);
+    }
+
+    private boolean contains(Node<T> node, T data) {
+        if (node == null) {
+            return false;
+        }
+
+        int cmp = data.compareTo(node.data);
+        if (cmp < 0) {
+            return contains(node.left, data);
+        } else if (cmp > 0) {
+            return contains(node.right, data);
+        } else {
+            return true;
+        }
+    }
+
+
 
 
 
