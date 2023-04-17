@@ -5,6 +5,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//Implementing Comparable
 public class BinarySearchTree<T extends Comparable<T>> {
     private Node<T> root;
 
@@ -18,6 +19,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
             left = right = null;
         }
     }
+
+    //Added Insert
     public void insert(T data) {
         root = insert(root, data);
     }
@@ -37,6 +40,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return node;
     }
 
+    //Adding Delete
     public void delete(T data) {
         root = delete(root, data);
     }

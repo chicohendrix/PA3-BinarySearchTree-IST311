@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
     public class BinarySearchTreeTest {
+
+        //Added Insert Test
         @Test
         public void testInsertAndToString() {
             BinarySearchTree<Album> tree = new BinarySearchTree<>();
@@ -18,6 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
             assertEquals("ID: 1 NUM_SONGS: 10 -- [Artist 1, Artist 2], ID: 2 NUM_SONGS: 5 -- [Artist 1, Artist 2], N, N, ID: 3 NUM_SONGS: 15 -- [Artist 1, Artist 2], N, N", tree.toString());
         }
 
+        //Added Delete Test
         @Test
         public void testDelete() {
             BinarySearchTree<Album> tree = new BinarySearchTree<>();
@@ -30,6 +33,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
             assertEquals("ID: 1 NUM_SONGS: 10 -- [Artist 1, Artist 2], ID: 2 NUM_SONGS: 5 -- [Artist 1, Artist 2], N, N, N", tree.toString());
         }
+
+        //Added Contain Test
         @Test
         public void testContains() {
             BinarySearchTree<Album> tree = new BinarySearchTree<>();
@@ -42,6 +47,7 @@ import static org.junit.jupiter.api.Assertions.*;
             assertFalse(tree.contains(new Album(0, null, null, 20)));
         }
 
+        //Added Rebalance Test
         @Test
         public void testRebalance() {
             BinarySearchTree<Album> tree = new BinarySearchTree<>();

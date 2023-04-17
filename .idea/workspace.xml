@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a190a0-1fa1-4f0e-b7e1-9ab6b16892de" name="Changes" comment="Created BST Test Class">
+    <list default="true" id="84a190a0-1fa1-4f0e-b7e1-9ab6b16892de" name="Changes" comment="Added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA3-BST-Ritvik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA3-BST-Ritvik.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,34 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.testDelete">
+    <configuration name="BinarySearchTreeTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA3-BST-Ritvik" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTreeTest.testInsertAndToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA3-BST-Ritvik" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testInsertAndToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BinarySearchTreeTest.testDelete" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.testInsertAndToString" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -148,7 +177,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681700369321</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Insert and Delete Tests to the Test File">
+      <created>1681700890615</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681700890615</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Contain Test">
+      <created>1681701004351</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681701004351</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Rebalance Test">
+      <created>1681701034655</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681701034655</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added comments">
+      <created>1681701103862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681701103862</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +220,10 @@
     <MESSAGE value="Added reblance method for BST" />
     <MESSAGE value="Added partition method for BST" />
     <MESSAGE value="Created BST Test Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created BST Test Class" />
+    <MESSAGE value="Added Insert and Delete Tests to the Test File" />
+    <MESSAGE value="Added Contain Test" />
+    <MESSAGE value="Added Rebalance Test" />
+    <MESSAGE value="Added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments" />
   </component>
 </project>
