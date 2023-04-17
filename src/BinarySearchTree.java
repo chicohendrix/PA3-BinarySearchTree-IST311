@@ -37,5 +37,11 @@ public class BinarySearchTree<T extends Comparable<T>> {
         root = delete(root, data);
     }
 
+    private Node<T> delete(Node<T> node, T data) {
+        if (node == null) {
+            throw new IllegalArgumentException("Data not found in the tree.");
+        }
+
+
 
 
