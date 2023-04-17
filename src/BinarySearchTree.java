@@ -123,6 +123,22 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return tree;
     }
 
+    public List<T> inOrder() {
+        List<T> inOrderList = new ArrayList<>();
+        inOrder(root, inOrderList);
+        return inOrderList;
+    }
+
+    private void inOrder(Node<T> node, List<T> inOrderList) {
+        if (node != null) {
+            inOrder(node.left, inOrderList);
+            inOrderList.add(node.data);
+            inOrder(node.right, inOrderList);
+        }
+    }
+
+
+
 
 
 
